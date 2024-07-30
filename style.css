@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex ;
+    background-color: black;
+
+}
+header nav{
+    display: flex;
+    width: 274px;
+    height: 29px;
+    margin-top: 65px;
+     margin-left: 360px;
+     gap: 50px;
+     text-decoration: none;
+}
+
+header nav .menu_header{
+    color: #22D4FD;
+    text-decoration:none;
+}
+
+main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+main .cuadro_presentacion{
+    display: flex;
+
+}
+
+main .cuadro_presentacion .cuadro_presentacion_texto{
+    display: flex;
+    flex-direction: column;
+    width:593px;
+    height:388px;
+    margin-top: 135px;
+    margin-left: 255px;
+    gap: 40px;
+    opacity: 0px;
+    background-color:black;
+    
+
+}
+
+main .cuadro_presentacion h1{
+    font-family: "Krona One", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+
+    color:#f6f6f6;
+
+}
+
+main .cuadro_presentacion h1 strong{
+    color: #22D4FD;
+}
+
+main .cuadro_presentacion .cuadro_presentacion_texto p{
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+
+}
+main .acceso_redes{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main .acceso_redes h2{
+    color: #f6f6f6;
+}
+
+main .acceso_redes a{
+    display: flex;
+    text-decoration: none;
+}
+
+main .acceso_redes a button{
+    border-color: #22D4FD;
+    background-color: black;
+    color: #f6f6f6;
+}
+
+i{
+    color: #22D4FD;
+}
